@@ -1,0 +1,155 @@
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154$ cd downloads
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads$ cd homework
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework$ ls
+README  books
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework$ touch MariaYakovleva.txt
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework$ cd readme
+-bash: cd: readme: Not a directory
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework$  cat Readme
+1. Create a file named after you with the name style like "IvanGurkov"
+2. echo your hse email there
+3. go to the books dir
+4. go to the eng dir and look around
+5. check the txt files there and rename them according to the books' titles (like "crime_and_punishment.txt")
+6. go to the books/rus dir
+7. books here have years at the beginning of their names: create a file with these books sorted from the newest to the oldest
+8. these books have different file extensions: create dirs named after these extensions and move files with according extensions there
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework$ echo "mmyakovleva@edu.hse.ru" >> MariaYakovleva.txt
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework$ cd books
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books$ cd eng
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/eng$ ls
+pg10.txt  pg10.txt.save  pg2600.txt  pg2865.txt
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/eng$ head pg10.txt
+﻿The Project Gutenberg eBook of The King James Version of the Bible
+
+This ebook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this ebook or online
+at www.gutenberg.org. If you are not located in the United States,
+you will have to check the laws of the country where you are located
+before using this eBook.
+
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/eng$ mv pg10.txt The_King_James_Version_of_the_Bible.txt
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/eng$ ls
+The_King_James_Version_of_the_Bible.txt  pg2600.txt  pg2865.txt
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/eng$ head pg2600.txt
+﻿The Project Gutenberg eBook of War and Peace
+
+This ebook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this ebook or online
+at www.gutenberg.org. If you are not located in the United States,
+you will have to check the laws of the country where you are located
+before using this eBook.
+
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/eng$ mv pg2600.txt War_and_Peace.txt
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/eng$ ls
+The_King_James_Version_of_the_Bible.txt  War_and_Peace.txt  pg2865.txt
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/eng$ head pg2865.txt
+THE  LIBRARY
+OF
+THE  UNIVERSITY
+OF  CALIFORNIA
+LOS  ANGELES
+COURSE  IN GENERAL  LINGUISTICS
+COURSE  IN GENERAL  LINGUISTICS
+FERDINAND   DE    SAUSSURE
+Edited  by  CHARLES  BALLY  and ALBERT  SECHEHAYE
+In  collaboration  with ALBERT  REIDLINGER
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/eng$  mv pg2865.txt Course_In_General_Linguistics.txt
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/eng$ ls
+Course_In_General_Linguistics.txt  The_King_James_Version_of_the_Bible.txt  War_and_Peace.txt
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/eng$ cd books
+-bash: cd: books: No such file or directory
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/eng$ св ..
+св: command not found
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/eng$ ^C
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/eng$ cd ..
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books$ cd rus
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ ls
+'1956 Фонетика современного русского литературного языка - Рубен Иванович Аванесов.djvu'  '1975 Лингвистика и поэтика - Якобсон.pdf'
+'1957 Синтаксические структуры.pdf'                                                       '2001 Введение в общий синтаксис - Тестелец.pdf'
+'1962 Очерки по общему языкознанию - Звегинцев В.А.djvu'                                  '2004 Основы общей фонетики - Бондарко Л. В., Вербицкая Л. А., Гордина М. В.pdf'
+'1970 Новое в зарубежной лингвистике. Выпуск 05 - Успенский (сост.).djvu'                 '2005 Маслов Ю.С. - Введение в языкознание.djvu'
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ ls -1 | sort -r
+2005 Маслов Ю.С. - Введение в языкознание.djvu
+2004 Основы общей фонетики - Бондарко Л. В., Вербицкая Л. А., Гордина М. В.pdf
+2001 Введение в общий синтаксис - Тестелец.pdf
+1975 Лингвистика и поэтика - Якобсон.pdf
+1970 Новое в зарубежной лингвистике. Выпуск 05 - Успенский (сост.).djvu
+1962 Очерки по общему языкознанию - Звегинцев В.А.djvu
+1957 Синтаксические структуры.pdf
+1956 Фонетика современного русского литературного языка - Рубен Иванович Аванесов.djvu
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$  ls -1 | sort -r >> sortedReversedNames.txt
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ cat sortedReversednames.txt
+sortedReversedNames.txt
+2005 Маслов Ю.С. - Введение в языкознание.djvu
+2004 Основы общей фонетики - Бондарко Л. В., Вербицкая Л. А., Гордина М. В.pdf
+2001 Введение в общий синтаксис - Тестелец.pdf
+1975 Лингвистика и поэтика - Якобсон.pdf
+1970 Новое в зарубежной лингвистике. Выпуск 05 - Успенский (сост.).djvu
+1962 Очерки по общему языкознанию - Звегинцев В.А.djvu
+1957 Синтаксические структуры.pdf
+1956 Фонетика современного русского литературного языка - Рубен Иванович Аванесов.djvu
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ mkdir DJVU
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ ls
+'1956 Фонетика современного русского литературного языка - Рубен Иванович Аванесов.djvu'
+'1957 Синтаксические структуры.pdf'
+'1962 Очерки по общему языкознанию - Звегинцев В.А.djvu'
+'1970 Новое в зарубежной лингвистике. Выпуск 05 - Успенский (сост.).djvu'
+'1975 Лингвистика и поэтика - Якобсон.pdf'
+'2001 Введение в общий синтаксис - Тестелец.pdf'
+'2004 Основы общей фонетики - Бондарко Л. В., Вербицкая Л. А., Гордина М. В.pdf'
+'2005 Маслов Ю.С. - Введение в языкознание.djvu'
+ DJVU
+ sortedReversedNames.txt
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ mkdir PDF
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ ls
+'1956 Фонетика современного русского литературного языка - Рубен Иванович Аванесов.djvu'
+'1957 Синтаксические структуры.pdf'
+'1962 Очерки по общему языкознанию - Звегинцев В.А.djvu'
+'1970 Новое в зарубежной лингвистике. Выпуск 05 - Успенский (сост.).djvu'
+'1975 Лингвистика и поэтика - Якобсон.pdf'
+'2001 Введение в общий синтаксис - Тестелец.pdf'
+'2004 Основы общей фонетики - Бондарко Л. В., Вербицкая Л. А., Гордина М. В.pdf'
+'2005 Маслов Ю.С. - Введение в языкознание.djvu'
+ DJVU
+ PDF
+ sortedReversedNames.txt
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ mv -t DJVU "1956 Фнетика соверменного русского литературного языка - рубен Иванович Аванесовю.djvu" "2005 Маслов Ю.С. - Введение в языкознание.djvu"
+mv: cannot stat '1956 Фнетика соверменного русского литературного языка - рубен Иванович Аванесовю.djvu': No such file or directory
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ mv -t DJVU "1956 Фонетика современного русского литературного языка - Рубен Иванович Аванесов.djvu" "1962 Очерки по общему языкознанию - Звегинцев В.А.djvu" "1970 Новое в зарубежной лингвистике. Выпуск 05 - Успенский (сост.).djvu"
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ mv -t "1957 Синтаксические структуры.pdf" "1975 Лингвистика и поэтика - Якобсон.pdf" "2001 Введение в общий синтаксис - Тестелец.pdf" "2004 Основы общей фонетики - Бондарко Л. В., Вербицкая Л. А., Гордина М. В.pdf"
+mv: target '1957 Синтаксические структуры.pdf' is not a directory
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ ls
+'1957 Синтаксические структуры.pdf'                                                DJVU
+'1975 Лингвистика и поэтика - Якобсон.pdf'                                         PDF
+'2001 Введение в общий синтаксис - Тестелец.pdf'                                   sortedReversedNames.txt
+'2004 Основы общей фонетики - Бондарко Л. В., Вербицкая Л. А., Гордина М. В.pdf'
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ Ls *.pdf | xargs mv a.* PDF
+Ls: command not found
+mv: cannot stat 'a.*': No such file or directory
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ ls *.pdf
+'1957 Синтаксические структуры.pdf'
+'1975 Лингвистика и поэтика - Якобсон.pdf'
+'2001 Введение в общий синтаксис - Тестелец.pdf'
+'2004 Основы общей фонетики - Бондарко Л. В., Вербицкая Л. А., Гордина М. В.pdf'
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ ls *.pdf | xargs mv PDF
+mv: target 'В.pdf' is not a directory
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ ls *.pdf | xargs cp a*. /PDF
+cp: target 'В.pdf' is not a directory
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ ls *.pdf | xargs mv echo ./PDF/
+mv: target 'В.pdf' is not a directory
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ ls *.pdf | xargs >> mv ./PDF/
+xargs: ./PDF/: Permission denied
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ mv -t *.pdf PDF
+mv: target '1957 Синтаксические структуры.pdf' is not a directory
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ ls
+'1957 Синтаксические структуры.pdf'         '2001 Введение в общий синтаксис - Тестелец.pdf'                                   DJVU   sortedReversedNames.txt
+'1975 Лингвистика и поэтика - Якобсон.pdf'  '2004 Основы общей фонетики - Бондарко Л. В., Вербицкая Л. А., Гордина М. В.pdf'   PDF
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ mv -t PDF *.pdf
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$ ls
+DJVU  PDF  sortedReversedNames.txt
+marusya02@LAPTOP-FPQN7N8B:/mnt/c/Users/79154/downloads/homework/books/rus$
